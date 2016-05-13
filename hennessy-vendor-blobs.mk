@@ -1,6 +1,7 @@
 PRODUCT_PACKAGES += \
     FingerprintService \
-    SafeFingerprint
+    SafeFingerprint \
+    FmRadio
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/hennessy/app,system/app)
 
